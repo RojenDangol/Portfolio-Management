@@ -179,8 +179,10 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'rojendangol1@gmail.com'
-EMAIL_HOST_PASSWORD = 'beowhemrutuuybjn'
+
+EMAIL_HOST_USER = 'YOUR EMAIL'
+EMAIL_HOST_PASSWORD = 'YOUR PASSWORD'
+# add a app password in your gmail through two way verification 
 
 
 # Static files (CSS, JavaScript, Images)
